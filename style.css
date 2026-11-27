@@ -1,0 +1,41 @@
+html, body {
+    background: radial-gradient(rgb(0,255,255),#000000);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+#demo {
+    font-size: 100px;
+    color: rgb(0,0,0);
+    text-align: center;
+
+}
+
+#link {
+    color: #00ffff;
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid #00ffff;
+    border-radius: 100px;
+    background-color: black;
+    transition: ease 0.3s;
+    box-shadow: 0px 0px 10px black;
+}
+
+#link:hover {
+    padding: 30px;
+    box-shadow: 0px 0px 50px black;
+}
+
+#link-container {
+    text-align: center;
+    font-size: 50px;
+}
+
+.nice_font {
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
