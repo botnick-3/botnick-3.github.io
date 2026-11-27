@@ -6,4 +6,4 @@ let i = 0;
 setInterval(() => {
     heading_text.innerHTML = texts[i];
     i = (i + 1) % texts.length;
-}, 1000);
+}, 800);
